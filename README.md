@@ -8,7 +8,12 @@
 ![Python](https://img.shields.io/badge/python-≥3.8-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Stars](https://img.shields.io/github/stars/ebc-clip/ebc-clip?style=social)
-
+</p>
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.17559868">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17559868.svg" alt="DOI">
+  </a>
+</p>
 ---
 
 **Author**: **Hari Tedjamantri**  
