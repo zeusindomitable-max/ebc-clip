@@ -14,7 +14,7 @@
 **Author**: **Hari Tedjamantri**  
 **Email**: haryganteng06@gmail.com  
 **X**: [@haritedjamantri](https://x.com/haritedjamantri)  
-**DOI**: [10.5281/zenodo.1234567](https://doi.org/10.5281/zenodo.1234567)  
+**DOI**: [10.5281/zenodo.17559868](https://doi.org/10.5281/zenodo.17559868)  
 
 </div>
 
@@ -107,7 +107,7 @@ bibtex
   publisher = {GitHub},
   
   url       = {[https://github.com/zeusindomitable-max/ebc-clip]},
-  doi       = {10.5281/zenodo.1234567}
+  doi       = {10.5281/zenodo.17559868}
 }
 
 ## LinksPlatform
@@ -121,9 +121,7 @@ pypi.org/project/ebc-clip
 Docs
 ebc-clip.dev
 Zenodo
-doi.org/10.5281/zenodo.1234567
-arXiv
-arxiv.org/abs/2501.XXXXX
+doi.org/10.5281/zenodo.17559868
 
 <div align="center">
 
