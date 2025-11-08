@@ -29,7 +29,8 @@
 
 Gradient energy ≤ 10% of signal energy
 → No explosion. No collapse. No tuning.
-Why EBC?Problem
+## Why EBC?
+Problem
 Global Clipping
 EBC
 NaN in FP16
@@ -87,13 +88,14 @@ from ebc_clip import monitor_ebc_ratio
 ratios = monitor_ebc_ratio(model)
 print(ratios["h.17.mlp.c_proj.weight"])  # should be < 0.1
 
-Environmenttxt
+## Environmenttxt
 
 Python >= 3.8
 PyTorch >= 1.13
 transformers >= 4.30
 
-Citation (BibTeX)bibtex
+## Citation (BibTeX)
+bibtex
 
 @software{ebc-clip-2025,
   author    = {Hari Tedjamantri},
@@ -104,7 +106,7 @@ Citation (BibTeX)bibtex
   doi       = {10.5281/zenodo.1234567}
 }
 
-LinksPlatform
+## LinksPlatform
 Link
 GitHub
 github.com/ebc-clip/ebc-clip
@@ -119,7 +121,7 @@ arxiv.org/abs/2501.XXXXX
 
 <div align="center">
 
-Made with  by Hari Tedjamantri
+## Made with  by Hari Tedjamantri
 X: @haritedjamantri
 </div>
 ```
