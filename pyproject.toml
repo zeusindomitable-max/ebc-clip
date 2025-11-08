@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ebc-clip"
+version = "0.1.0"
+description = "Energy-Budget Gradient Clipping: ||grad|| <= 0.1 * ||activation||"
+readme = "README.md"
+authors = [{name = "EBC Team", email = "contact@ebc-clip.dev"}]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+keywords = ["llm", "gradient clipping", "stable training", "deep learning"]
+requires-python = ">=3.8"
+dependencies = [
+    "torch>=1.13.0",
+    "transformers>=4.30.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/ebc-clip/ebc-clip"
+Documentation = "https://github.com/ebc-clip/ebc-clip#readme"
+Repository = "https://github.com/ebc-clip/ebc-clip"
+Issues = "https://github.com/ebc-clip/ebc-clip/issues"
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov", "black", "isort"]
+docs = ["mkdocs", "mkdocstrings"]
+
+[tool.setuptools.packages.find]
+where = ["."]
