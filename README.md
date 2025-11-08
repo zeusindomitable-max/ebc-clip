@@ -97,11 +97,16 @@ transformers >= 4.30
 bibtex
 
 @software{ebc-clip-2025,
+
   author    = {Hari Tedjamantri},
+  
   title     = {ebc-clip: Energy-Budget Gradient Clipping},
+  
   year      = {2025},
+  
   publisher = {GitHub},
-  url       = {https://github.com/ebc-clip/ebc-clip},
+  
+  url       = {[https://github.com/zeusindomitable-max/ebc-clip]},
   doi       = {10.5281/zenodo.1234567}
 }
 
