@@ -28,7 +28,8 @@
 ```
 
 Gradient energy ≤ 10% of signal energy
-→ No explosion. No collapse. No tuning.
+
+→ No explosion. No collapse. No tuning
 ## Why EBC?
 Problem
 Global Clipping
@@ -50,8 +51,8 @@ Installbash
 
 pip install ebc-clip
 
-Quick Start (3 Lines)python
-
+## Quick Start (3 Lines)python
+``` bash 
 from ebc_clip import energy_budget_clip
 
 clip = energy_budget_clip(model)  # ratio=0.1 by default
@@ -59,34 +60,33 @@ clip = energy_budget_clip(model)  # ratio=0.1 by default
 loss.backward()
 clip()                    # replaces clip_grad_norm_
 optimizer.step()
+```
+## Results (LLaMA-7B, 5000 steps, FP16)Metric
 
-Results (LLaMA-7B, 5000 steps, FP16)Metric
-Global Clip
-EBC
-Final Loss
-2.41
-2.29
-Training Time
-100%
-97%
-NaN Events
-0
-0
+Metric         | Global Clip | EBC
+---------------|-------------|-------
+Final Loss     | 2.41        | 2.29
+Training Time  | 100%        | 97%
+NaN Events     | 0           | 0
 
-Loss CurveHow It Workstext
-
+Loss Curve
+## How It Workstext
+```bash
 E_grad ≤ 0.1 × E_signal
+```
+•Layer-adaptive: Deep layers get larger budget  
+•Zero overhead: <0.1% compute  
+•Universal: Works on LLaMA, Mistral, GPT, MLP
 
-Layer-adaptive: Deep layers get larger budget  
-Zero overhead: <0.1% compute  
-Universal: Works on LLaMA, Mistral, GPT, MLP
+## Monitor (Optional)python
 
-Monitor (Optional)python
-
+```bash
 from ebc_clip import monitor_ebc_ratio
 
 ratios = monitor_ebc_ratio(model)
 print(ratios["h.17.mlp.c_proj.weight"])  # should be < 0.1
+
+```
 
 ## Environmenttxt
 
@@ -110,8 +110,10 @@ bibtex
 Link
 GitHub
 github.com/ebc-clip/ebc-clip
+
 PyPI
 pypi.org/project/ebc-clip
+
 Docs
 ebc-clip.dev
 Zenodo
