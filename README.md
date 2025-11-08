@@ -15,7 +15,6 @@
 **Email**: haryganteng06@gmail.com  
 **X**: [@haritedjamantri](https://x.com/haritedjamantri)  
 **DOI**: [10.5281/zenodo.1234567](https://doi.org/10.5281/zenodo.1234567)  
-**arXiv**: [2501.XXXXX](https://arxiv.org/abs/2501.XXXXX)
 
 </div>
 
@@ -109,7 +108,7 @@ bibtex
 ## LinksPlatform
 Link
 GitHub
-github.com/ebc-clip/ebc-clip
+[. [https://github.com/zeusindomitable-max/ebc-clip]
 
 PyPI
 pypi.org/project/ebc-clip
@@ -127,4 +126,25 @@ arxiv.org/abs/2501.XXXXX
 X: @haritedjamantri
 </div>
 ```
+# EBC-CLIP: Efficient Bit-Compact CLIP for Edge
+
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE-MIT.txt)
+[![Commercial](https://img.shields.io/badge/Commercial-License-red.svg)](LICENSE-COMMERCIAL.md)
+
+> **Open for research. Commercial use requires a paid license.**
+
+---
+
+### Free Use (MIT)
+- Research, education, personal projects
+- Open source apps
+- Prototypes & <10 devices in production
+
+### Commercial Use
+- SaaS, embedded products, APIs
+- >10 devices
+- Use of `deployment/` tools
+- → [Get License →](mailto:haryganteng06@gmail.com)
+
+---
 
